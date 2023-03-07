@@ -1,0 +1,13 @@
+; D:\Working\Isoloader_TCchargerOnboardCharger\PCANProject\TestCase.xmt
+; CAN messages saved by PCAN-View 4.1.3
+;
+; Columns descriptions:
+; ~~~~~~~~~~~~~~~~~~~~~
+; +Message ID
+; |            +Cycle time in ms (0=manual)
+; |            |  +Data length
+; |            |  |  +Frame type
+; |            |  |  |  +Message data
+; |            |  |  |  |
+23Ch           0  8  D 00h 78h 00h 0Ah 00h 00h 00h 00h ; BMS->OBC:ON
+23Ch           0  8  D 00h 78h 00h 0Ah 01h 00h 00h 00h ; BMS->OBC:OFF
