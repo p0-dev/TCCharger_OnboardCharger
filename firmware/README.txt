@@ -21,4 +21,12 @@ version : v1
 	- contains: node id 60 (3316)
 	- required kl30 to be supplied with 12V
 	- can message transmit when kl30 be supplied with 12V
-	- status: N/A
+	- status: cannot be used to re-charge
+
+version : v2
++ date: 04.08.2023
+	- baudrate: 250kbps
+	- contains: node id 60 (3316)
+	- required kl30 to be supplied with 12V
+	- can message transmit when kl30 be supplied with 12V
+	- status: try to fix the problem with previous version, have not tested
