@@ -1,6 +1,6 @@
 [FIRMWARE VERSION INFORMATION]
 
-version : original
+version : v1_oem
 + date : from the factory
 	- baudrate: 250kbps
 	- contains: node id 60 (3316) / 61 (3317) / 62 (3315)
@@ -8,14 +8,14 @@ version : original
 	- can message transmits when have CC and CP (charging station plugs in)
 	- status: working ok as describe --> go to firmware for normal application
 
-version : non_kl30
+version : v2_non_kl30
 	- baudrate: 250kbps
 	- contains: node id 61 -> cannot be used as node 61 does not deal with CC and CP
 	- required no kl30 to be supplied with 12V
 	- can message transmits when have CC and CP (charing station plugs in)
 	- status: work not ok with the application
 
-version : v1
+version : v3_kl30_always-enable-can-message
 + date: 01.08.2023
 	- baudrate: 250kbps
 	- contains: node id 60 (3316)
@@ -23,7 +23,7 @@ version : v1
 	- can message transmit when kl30 be supplied with 12V
 	- status: cannot be used to re-charge
 
-version : v2
+version : v4_kl30_always-enable-can-message
 + date: 04.08.2023
 	- baudrate: 250kbps
 	- contains: node id 60 (3316)
