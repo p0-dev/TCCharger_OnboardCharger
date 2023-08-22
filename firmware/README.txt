@@ -30,3 +30,11 @@ version : v4_kl30_always-enable-can-message
 	- required kl30 to be supplied with 12V
 	- can message transmit when kl30 be supplied with 12V
 	- status: try to fix the problem with previous version, have not tested
+
+version : v5_fix-CP-drop
++ date: 22.08.2023
+	- baudrate: 250kbps
+	- contains: node id 60 (3316)
+	- required kl30 to be supplied with 12V
+	- can message transmit when kl30 be supplied with 12V
+	- status: try to fix the problem with drop CP signal during initialization or charging process
